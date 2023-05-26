@@ -1,0 +1,46 @@
+.customForm {
+  background: white;
+  padding: 24px;
+  border-radius: 0.375rem;
+}
+.customForm input {
+  background-color: #f2e8ff;
+}
+
+.customForm button {
+  background-color: #6c32fe;
+  color: white;
+}
+
+.customForm button:hover {
+  background-color: #6c32fe;
+  color: white;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-section-container {
+  flex-basis: 50%;
+}
+
+.description-section-container {
+  flex-basis: 50%;
+  color: white;
+}
+
+.description-section-container .innerContent {
+  padding-left: 20px;
+}
+
+@media only screen and (max-width: 1115px) {
+  .form-container {
+    flex-direction: column;
+  }
+
+  .description-section-container .innerContent {
+    padding-top: 20px;
+  }
+}

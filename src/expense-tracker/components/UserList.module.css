@@ -1,0 +1,25 @@
+.tableWrap {
+  border: 2px solid black;
+  border-radius: 0.375rem;
+}
+
+.theadWrap {
+  background-color: #a37fff;
+  color: black;
+}
+
+.customTableBody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.customTable {
+  margin-bottom: 0px !important;
+}
+
+.customTableBody tr:nth-child(odd) {
+  background-color: #f8f6fb;
+}
+
+.customTable > :not(caption) > * > * {
+  padding: 0.5rem 1.5rem;
+}
