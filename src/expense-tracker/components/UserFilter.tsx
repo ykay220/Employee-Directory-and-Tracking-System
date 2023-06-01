@@ -23,6 +23,8 @@ interface Props {
   onSelectCategory: (category: string) => void;
 }
 
+
+
 const UserFilter = ({ onSelectCategory, users }: Props) => {
   return (
     <select
