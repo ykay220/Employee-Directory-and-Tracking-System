@@ -1,5 +1,4 @@
 import { useState, useEffect, MouseEvent } from "react";
-import "./app.css";
 import apiClient from "./services/api-client";
 import "./App.css";
 import UserList, { UserObj } from "./expense-tracker/components/UserList";
